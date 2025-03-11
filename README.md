@@ -151,7 +151,3 @@ This project uses Maven for compilation and packaging.
 This project is licensed under the MIT License.
 
 ```
-
----
-
-You can adjust the details as needed for your project. Save this as `README.md` in your project root. This file will help users set up the configuration files, compile the project using Maven, and install the resulting jar on their server.
