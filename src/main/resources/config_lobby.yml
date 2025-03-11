@@ -1,0 +1,140 @@
+lobby:
+  world: PVE
+  spawns:
+    spawn1:
+      world: PVE
+      x: 116
+      y: -41
+      z: -28
+    spawn2:
+      world: PVE
+      x: 116
+      y: -41
+      z: -16
+    spawn3:
+      world: PVE
+      x: 114
+      y: -41
+      z: -5
+    spawn4:
+      world: PVE
+      x: 109
+      y: -41
+      z: 5
+    spawn5:
+      world: PVE
+      x: 103
+      y: -41
+      z: 14
+    spawn6:
+      world: PVE
+      x: 95
+      y: -41
+      z: 23
+    spawn7:
+      world: PVE
+      x: 85
+      y: -41
+      z: 29
+    spawn8:
+      world: PVE
+      x: 74
+      y: -41
+      z: 34
+    spawn9:
+      world: PVE
+      x: 63
+      y: -41
+      z: 36
+    spawn10:
+      world: PVE
+      x: 51
+      y: -41
+      z: 36
+    spawn11:
+      world: PVE
+      x: 40
+      y: -41
+      z: 34
+    spawn12:
+      world: PVE
+      x: 29
+      y: -40
+      z: 29
+    spawn13:
+      world: PVE
+      x: 19
+      y: -40
+      z: 23
+    spawn14:
+      world: PVE
+      x: 11
+      y: -40
+      z: 15
+    spawn15:
+      world: PVE
+      x: 5
+      y: -40
+      z: 5
+    spawn16:
+      world: PVE
+      x: 0
+      y: -40
+      z: -5
+    spawn17:
+      world: PVE
+      x: 0
+      y: -39
+      z: -39
+    spawn18:
+      world: PVE
+      x: 5
+      y: -39
+      z: -50
+    spawn19:
+      world: PVE
+      x: 11
+      y: -39
+      z: -60
+    spawn20:
+      world: PVE
+      x: 19
+      y: -39
+      z: -68
+    spawn21:
+      world: PVE
+      x: 29
+      y: -39
+      z: -74
+    spawn22:
+      world: PVE
+      x: 40
+      y: -39
+      z: -79
+    spawn23:
+      world: PVE
+      x: 51
+      y: -39
+      z: -81
+    spawn24:
+      world: PVE
+      x: 63
+      y: -40
+      z: -81
+    spawn25:
+      world: PVE
+      x: 74
+      y: -40
+      z: -79
+  exclude:
+    - sellePLAYS
+    - Goetslayer
+    - barthinator
+  equipment:
+    helmet: CHAINMAIL_HELMET
+    chestplate: CHAINMAIL_CHESTPLATE
+    leggings: CHAINMAIL_LEGGINGS
+    boots: CHAINMAIL_BOOTS
+    sword: STONE_SWORD
+    bow: BOW
+    arrows: 32

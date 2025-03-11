@@ -1,0 +1,69 @@
+name: MobKillTracker
+version: 1.4
+main: com.cozycraftpve.App
+api-version: 1.20
+description: A plugin that tracks mob kills, assigns points, and supports scoring sessions.
+author: CozyCraftPVE
+commands:
+  checkkills:
+    description: Check your total mob kill points.
+    usage: /checkkills
+  resetkills:
+    description: Reset your kill points.
+    usage: /resetkills
+    permission: mobkilltracker.reset
+  settrackedworld:
+    description: Set the world to track mob kills.
+    usage: /settrackedworld <worldname>
+    permission: mobkilltracker.admin
+  leaderboard:
+    description: View all players' mob kill points.
+    usage: /leaderboard
+  startsession:
+    description: Start a new scoring session (resets scores).
+    usage: /startsession <session_name>
+    permission: mobkilltracker.admin
+  viewsession:
+    description: View leaderboard from a previous session.
+    usage: /viewsession <session_name>
+    permission: mobkilltracker.admin
+  listsessions:
+    description: List all past sessions.
+    usage: /listsessions
+    permission: mobkilltracker.admin
+  startwaves:
+    description: Start mob wave spawning.
+    usage: /startwaves
+    permission: mobkilltracker.admin
+  stopwaves:
+    description: Start mob wave spawning.
+    usage: /stopwaves
+    permission: mobkilltracker.admin
+  reloadwaves:
+    description: Reloads the wave and loot configuration.
+    usage: /reloadwaves
+    permission: mobkilltracker.admin
+  startgame:
+    description: Teleports players to the lobby and freezes them.
+    usage: /startgame
+    permission: mobkilltracker.admin
+  stopgame:
+    description: Stops the game, teleports players back to the lobby, and resets the game.
+    usage: /stopgame
+    permission: mobkilltracker.admin
+  reloadloot:
+    description: Reloads loot chests
+    usage: /reloadloot
+    permission: mobkilltracker.admin
+  reloadchestconfig:
+    description: Reloads chest config file.
+    usage: /reloadchestconfig
+    permission: mobkilltracker.admin
+  reloadlobby:
+    description: Reloads lobby config file.
+    usage: /reloadlobby
+    permission: mobkilltracker.admin
+  resetleaderboard:
+    description: Reset scores.yml file.
+    usage: /resetleaderboard
+    permission: mobkilltracker.admin

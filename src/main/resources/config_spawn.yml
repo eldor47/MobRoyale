@@ -1,0 +1,202 @@
+spawner:
+  spawnPoint:
+    world: PVE
+    x: 57.0
+    y: -30
+    z: -22.0
+  radius: 50
+  waves:
+    - name: Wave 1 - FIRST WAVE :)
+      duration: 150         # 300 seconds
+      spawnInterval: 15     # spawn every 100 seconds
+      mobs:
+        zombie: 3
+        skeleton: 3
+        creeper: 1
+        spider: 3
+    - name: Wave 2
+      duration: 150
+      spawnInterval: 15
+      mobs:
+        cave_spider: 2
+        magma_cube: 4
+        husk: 5
+        zombie: 5
+    - name: Wave 3
+      duration: 150
+      spawnInterval: 15
+      mobs:
+        witch: 4
+        phantom: 3
+        skeleton: 2
+        bogged: 3
+        breeze: 2
+    - name: Wave 4
+      duration: 150
+      spawnInterval: 15
+      mobs:
+        blaze: 3
+        ravager: 1
+        creeper: 2
+        enderman: 3
+        vex: 1
+    - name: Wave 5 - FINAL WAVE >:)
+      duration: 180
+      spawnInterval: 180
+      mobs:
+        wither: 1
+        wither_skeleton: 25
+        witch: 10
+        illusioner: 5
+        pillager: 35
+  loot:
+    ZOMBIE:
+      - item: rotten_flesh
+        weight: 15
+        amount: 2
+      - item: cooked_mutton
+        weight: 5
+        amount: 3
+      - item: splash_potion{Potion:strength1}
+        weight: 1
+        amount: 1
+    SKELETON:
+      - item: arrow
+        weight: 10
+        amount: 10
+      - item: cooked_mutton
+        weight: 5
+        amount: 3
+    CREEPER:
+      - item: cooked_mutton
+        weight: 10
+        amount: 3
+      - item: diamond_sword
+        weight: 1
+        amount: 1
+        enchantments:
+          sharpness: 1
+    SPIDER:
+      - item: cooked_mutton
+        weight: 10
+        amount: 3
+      - item: splash_potion{Potion:regeneration1}
+        weight: 3
+        amount: 1
+    CAVE_SPIDER:
+      - item: cooked_mutton
+        weight: 10
+        amount: 3
+      - item: splash_potion{Potion:regeneration2}
+        weight: 3
+        amount: 1
+    WITCH:
+      - item: cooked_mutton
+        weight: 10
+        amount: 3
+      - item: golden_apple
+        weight: 3
+        amount: 1
+      - item: enchanted_golden_apple
+        weight: 1
+        amount: 1
+    HUSK:
+      - item: rotten_flesh
+        weight: 15
+        amount: 2
+      - item: cooked_mutton
+        weight: 5
+        amount: 3
+      - item: splash_potion{Potion:strength1}
+        weight: 1
+        amount: 1
+    BOGGED:
+      - item: arrow
+        weight: 15
+        amount: 15
+      - item: cooked_mutton
+        weight: 5
+        amount: 3
+      - item: splash_potion{Potion:swiftness1}
+        weight: 1
+        amount: 1
+    BLAZE:
+      - item: splash_potion{Potion:healing2}
+        weight: 1
+        amount: 1
+    ENDERMAN:
+      - item: golden_apple
+        weight: 5
+        amount: 1
+      - item: splash_potion{Potion:swiftness2}
+        weight: 10
+        amount: 1
+    WITHER_SKELETON:
+      - item: golden_apple
+        weight: 5
+        amount: 1
+      - item: milk_bucket
+        weight: 5
+        amount: 1
+      - item: enchanted_golden_apple
+        weight: 5
+        amount: 1
+      - item: netherite_sword
+        weight: 1
+        amount: 1
+        enchantments:
+          smite: 5
+    PILLAGER:
+      - item: golden_apple
+        weight: 5
+        amount: 1
+      - item: milk_bucket
+        weight: 5
+        amount: 1
+      - item: enchanted_golden_apple
+        weight: 5
+        amount: 1
+      - item: splash_potion{Potion:strength2}
+        weight: 1
+        amount: 1
+      - item: netherite_sword
+        weight: 1
+        amount: 1
+        enchantments:
+          sharpness: 5
+    ILLUSIONER:
+      - item: golden_apple
+        weight: 5
+        amount: 1
+      - item: milk_bucket
+        weight: 5
+        amount: 1
+      - item: enchanted_golden_apple
+        weight: 5
+        amount: 1
+      - item: splash_potion{Potion:strength2}
+        weight: 1
+        amount: 1
+      - item: splash_potion{Potion:regeneration2}
+        weight: 1
+        amount: 1
+    RAVAGER:
+      - item: diamond_sword
+        weight: 25
+        amount: 1
+        enchantments:
+          sharpness: 3
+      # - item: splash_potion{Potion:regeneration2}
+      #   weight: 10
+      #   amount: 1
+      # - item: splash_potion{Potion:swiftness1}
+      #   weight: 10
+      #   amount: 1
+      # - item: splash_potion{Potion:strength2}
+      #   weight: 10
+      #   amount: 1
+      # - item: diamond_sword
+      #   weight: 25
+      #   amount: 1
+      #   enchantments:
+      #     sharpness: 3

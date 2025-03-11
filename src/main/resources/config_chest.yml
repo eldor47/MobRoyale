@@ -1,0 +1,141 @@
+chest:
+  world: PVE
+  tier-chances:
+    common: 50
+    uncommon: 30
+    rare: 10
+    legendary: 10
+  tiers:
+    common:
+      min-items: 5
+      max-items: 10
+      loot:
+        - item: iron_helmet
+          weight: 5
+          amount: 1
+        - item: iron_chestplate
+          weight: 5
+          amount: 1
+        - item: iron_boots
+          weight: 5
+          amount: 1
+        - item: iron_leggings
+          weight: 5
+          amount: 1
+        - item: iron_sword
+          weight: 5
+          amount: 1
+        - item: shield
+          weight: 10
+          amount: 1
+        - item: cooked_mutton
+          weight: 10
+          amount: 13
+    uncommon:
+      min-items: 10
+      max-items: 15
+      loot:
+        - item: iron_helmet
+          weight: 3
+          amount: 1
+          enchantments:
+            protection: 2
+        - item: chainmail_chestplate
+          weight: 5
+          amount: 1
+          enchantments:
+            protection: 2
+            unbreaking: 3
+        - item: golden_boots
+          weight: 1
+          amount: 1
+          enchantments:
+            protection: 4
+            unbreaking: 3
+        - item: diamond_chestplate
+          weight: 3
+          amount: 1
+        - item: iron_sword
+          weight: 10
+          amount: 1
+          enchantments:
+            sharpness: 3
+        - item: shield
+          weight: 10
+          amount: 1
+        - item: cooked_mutton
+          weight: 10
+          amount: 21
+    rare:
+      min-items: 10
+      max-items: 15
+      loot:
+        - item: diamond_helmet
+          weight: 5
+          amount: 1
+        - item: diamond_chestplate
+          weight: 5
+          amount: 1
+        - item: diamond_boots
+          weight: 5
+          amount: 1
+        - item: diamond_leggings
+          weight: 5
+          amount: 1
+        - item: diamond_sword
+          weight: 5
+          amount: 1
+        - item: golden_apple
+          weight: 8
+          amount: 2
+        - item: splash_potion{Potion:swiftness1}
+          weight: 8
+          amount: 1
+        - item: splash_potion{Potion:regeneration1}
+          weight: 8
+          amount: 1
+        - item: splash_potion{Potion:healing2}
+          weight: 8
+          amount: 1
+        - item: bow
+          weight: 10
+          amount: 1
+          enchantments:
+            power: 2
+        - item: arrow
+          weight: 7
+          amount: 64
+    legendary:
+      min-items: 10
+      max-items: 15
+      loot:
+        - item: netherite_chestplate
+          weight: 5
+          amount: 1
+        - item: netherite_leggings
+          weight: 5
+          amount: 1
+        - item: diamond_boots
+          weight: 5
+          amount: 1
+        - item: diamond_helmet
+          weight: 5
+          amount: 1
+        - item: golden_apple
+          weight: 8
+          amount: 3
+        - item: splash_potion{Potion:strength2}
+          weight: 6
+          amount: 1
+        - item: splash_potion{Potion:swiftness2}
+          weight: 8
+          amount: 1
+        - item: splash_potion{Potion:regeneration2}
+          weight: 8
+          amount: 1
+        - item: splash_potion{Potion:healing2}
+          weight: 8
+          amount: 1
+        - item: shield
+          weight: 10
+          amount: 1
