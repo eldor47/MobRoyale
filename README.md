@@ -1,6 +1,3 @@
-Below is an example README.md file you can include in your project. It explains how to set up the configuration files, and how to compile, install, and package your plugin with Maven to generate the jar file.
-
----
 
 # MobRoyale
 
